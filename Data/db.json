@@ -1,0 +1,493 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "idaaaa": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "name": "Farid Zamanli",
+      "phone": "050515451",
+      "person": "2",
+      "date": "2023-10-17",
+      "time": "18:00",
+      "type": "person",
+      "id": 1
+    }
+  ],
+  "persons": [
+    {
+      "name": "Ferid Zamanli",
+      "id": 4
+    },
+    {
+      "name": "Murad Rehimov",
+      "id": 5
+    },
+    {
+      "name": " Nazile Kerimova",
+      "id": 6
+    },
+    {
+      "name": "Zeynal Alisov",
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "name": "SUSHI ROLLS",
+      "id": 4
+    },
+    {
+      "name": "HOT ROLLS",
+      "id": 5
+    },
+    {
+      "name": "NIGIRI SUSHI",
+      "id": 6
+    },
+    {
+      "name": "NOODLES",
+      "id": 7
+    },
+    {
+      "name": "SNACKS",
+      "id": 8
+    },
+    {
+      "name": "DRINKS",
+      "id": 9
+    },
+    {
+      "name": "SALADS",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "tables": [
+    {
+      "name": "Table 1",
+      "id": 2
+    },
+    {
+      "name": "Table 2",
+      "id": 2
+    },
+    {
+      "name": "Table 3",
+      "id": 3
+    },
+    {
+      "name": "VIP 1",
+      "id": 4
+    },
+    {
+      "name": "VIP 2",
+      "id": 6
+    },
+    {
+      "name": "VIP 3",
+      "id": 7
+    },
+    {
+      "name": "VIP 4",
+      "id": 8
+    }
+  ],
+  "menu": [
+    {
+      "name": "KAPPA MAKI SUSHI ROLL",
+      "image": "https://www.bakenroll.az/en/image/800x800/super-sushi-set.jpg",
+      "category_id": 4,
+      "price": 6,
+      "id": 1
+    },
+    {
+      "name": "TAMAQO MAKI SUSHI ROLL",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSGd3_WCz0zZFLwAi57cy9qq512jndSb250w&usqp=CAU",
+      "category_id": 4,
+      "price": 6,
+      "id": 2
+    },
+    {
+      "name": "GOMMEN SUSHI ROLL",
+      "image": "https://cdn.yosushi.com/r/w-1000/YoSushi/files/31/316a676f-67bf-42e3-8a94-3de028231aae.638297248520000000.png",
+      "category_id": 4,
+      "price": 7,
+      "id": 3
+    },
+    {
+      "name": "YASAI SUSHI ROLL",
+      "image": "https://pngimg.com/uploads/sushi/sushi_PNG9216.png",
+      "category_id": 4,
+      "price": 8,
+      "id": 4
+    },
+    {
+      "name": "REIDZI SUSHI ROLL",
+      "image": "https://www.bakenroll.az/en/image/800x800/unaqihot.jpg",
+      "category_id": 4,
+      "price": 8,
+      "id": 5
+    },
+    {
+      "name": "TAMAGO SUSHI ROLL",
+      "image": "https://www.bakenroll.az/en/image/800x800/california-hot-roll-1.jpg",
+      "category_id": 4,
+      "price": 7,
+      "id": 6
+    },
+    {
+      "name": "CAESAR SUSHI ROLL",
+      "image": "https://img1.liveinternet.ru/images/attach/c/0/121/197/121197129__8_.png",
+      "category_id": 4,
+      "price": 9,
+      "id": 7
+    },
+    {
+      "name": "SALMON MAKI SUSHI ROLL",
+      "image": "https://static.vecteezy.com/system/resources/previews/021/356/649/non_2x/japanese-sushi-roll-food-isolated-on-a-transparent-background-png.png",
+      "category_id": 4,
+      "price": 4,
+      "id": 8
+    },
+    {
+      "name": "YAMI SUSHI ROLL",
+      "image": "https://www.bakenroll.az/en/image/800x800/filahot6.jpg",
+      "category_id": 4,
+      "price": 8,
+      "id": 9
+    },
+    {
+      "name": "SALMON BAKED SUSHI ROLL",
+      "image": "https://cdn.yosushi.com/r/w-1000/YoSushi/files/1e/1e5a8934-eac0-44b0-8f91-81360b627913.638297247610000000.png",
+      "category_id": 5,
+      "price": 10,
+      "id": 11
+    },
+    {
+      "name": "TUNA BAKED SUSHI ROLL",
+      "image": "https://cdn.yosushi.com/r/w-1000/YoSushi/files/43/43ebe86d-304f-4469-9e4b-3618b03f2560.638297249000000000.png",
+      "category_id": 5,
+      "price": 9,
+      "id": 12
+    },
+    {
+      "name": "MURAKAMI BAKED ROLL",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL-1YNdbm9tuuqaEpjgN4f0zIYeDCN0Sbjj0WZEzN3U6d7g1dHlfdqHbSwiBfBfklFrc4&usqp=CAU",
+      "category_id": 5,
+      "price": 6,
+      "id": 13
+    },
+    {
+      "name": "PHILADELPHIA BAKED SUSHI ROLL",
+      "image": "https://cdn.yosushi.com/r/w-1000/YoSushi/files/e1/e12b9deb-6bdc-4bc8-92f6-55007d921c53.638257505160000000.png",
+      "category_id": 5,
+      "price": 15,
+      "id": 14
+    },
+    {
+      "name": "CRUNCH HOT SUSHI ROLL",
+      "image": "https://cdn.yosushi.com/r/w-1000/YoSushi/files/dd/dde61c6c-19d7-4f1f-9e37-0f7675583128.638297248950000000.png",
+      "category_id": 5,
+      "price": 14,
+      "id": 15
+    },
+    {
+      "name": "AVOKADO NIGIRI",
+      "image": "https://www.bakenroll.az/en/image/800x800/nigiri-avocado-1.jpg",
+      "category_id": 6,
+      "price": 5,
+      "id": 16
+    },
+    {
+      "name": "EBI NIGIRI",
+      "image": "https://www.bakenroll.az/en/image/800x800/nigiri-ebi.jpg",
+      "category_id": 6,
+      "price": 18,
+      "id": 17
+    },
+    {
+      "name": "SALMON NIGIRI",
+      "image": "https://www.bakenroll.az/en/image/800x800/salmon-nigiri-1.jpg",
+      "category_id": 6,
+      "price": 17,
+      "id": 18
+    },
+    {
+      "name": "SMOKED NIGIRI",
+      "image": "https://www.bakenroll.az/en/image/800x800/nigiri-smoked.jpg",
+      "category_id": 6,
+      "price": 7,
+      "id": 19
+    },
+    {
+      "name": "TUNA NIGIRI",
+      "image": "https://www.bakenroll.az/en/image/800x800/tuna-nigiri-1.jpg",
+      "category_id": 6,
+      "price": 12,
+      "id": 20
+    },
+    {
+      "name": "UNAQI NIGIRI",
+      "image": "https://www.bakenroll.az/en/image/800x800/unaqi-nigiri.jpg",
+      "category_id": 6,
+      "price": 15,
+      "id": 21
+    },
+    {
+      "name": "MAKI NIGIRI",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE9-RRUygIJgagrPDcNTw0Jd9AALm7_AGaSuvJbl_Wx5-HJhXG9nWxmS6GoCjZjeYTemQ&usqp=CAU",
+      "category_id": 6,
+      "price": 8,
+      "id": 22
+    },
+    {
+      "name": "NIGIRI UNA",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_AkyP4JkXdAPsOHmupIEIBdlbazjSvJ4MX3YX1LDGju9R07q25he1FLgLl9DK3KRgqAk&usqp=CAU",
+      "category_id": 6,
+      "price": 9,
+      "id": 23
+    },
+    {
+      "name": "NIGIRI SALMON",
+      "image": "https://www.shirosushi.es/wp-content/uploads/2020/10/Salmon.jpg",
+      "category_id": 6,
+      "price": 10,
+      "id": 24
+    },
+    {
+      "name": "TERIYAKI NIGIRI",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ31JJLDAZkCcms-V1u7dsHpZlbRv-BekcPb39fRLPp-lOiyIGmhaLDfyCgo6LvUfUQ_VM&usqp=CAU",
+      "category_id": 6,
+      "price": 12,
+      "id": 25
+    },
+    {
+      "name": "RICE WITH VEGETABLES",
+      "image": "https://www.bakenroll.az/en/image/800x800/rice-vegan.jpg",
+      "category_id": 7,
+      "price": 18,
+      "id": 26
+    },
+    {
+      "name": "RICE WITH CHIKEN",
+      "image": "https://www.bakenroll.az/en/image/800x800/rice-chiken.jpg",
+      "category_id": 7,
+      "price": 15,
+      "id": 27
+    },
+    {
+      "name": "RICE SHRIMP",
+      "image": "https://www.bakenroll.az/en/image/800x800/rice-shrimp.jpg",
+      "category_id": 7,
+      "price": 8,
+      "id": 28
+    },
+    {
+      "name": "RICE SALMON",
+      "image": "https://www.bakenroll.az/en/image/800x800/rice-salmon-1.jpg",
+      "category_id": 7,
+      "price": 10,
+      "id": 29
+    },
+    {
+      "name": "NOODLES CHICKEN",
+      "image": "https://www.bakenroll.az/en/image/800x800/noodles-chiken.jpg",
+      "category_id": 7,
+      "price": 12,
+      "id": 30
+    },
+    {
+      "name": "EGG NOODLES SALMON",
+      "image": "https://www.bakenroll.az/en/image/800x800/noodles-krevetka.jpg",
+      "category_id": 7,
+      "price": 9,
+      "id": 31
+    },
+    {
+      "name": "NOODLES SALMON",
+      "image": "https://www.bakenroll.az/en/image/800x800/noodles-salmon.jpg",
+      "category_id": 7,
+      "price": 7,
+      "id": 32
+    },
+    {
+      "name": "CHIKEN ТAGGETS",
+      "image": "https://www.bakenroll.az/en/image/800x800/naggets.jpg",
+      "category_id": 8,
+      "price": 12,
+      "id": 33
+    },
+    {
+      "name": "CALAMARY TEMPURA",
+      "image": "https://www.bakenroll.az/en/image/800x800/kolca-kalmara-klare.jpg",
+      "category_id": 8,
+      "price": 8,
+      "id": 34
+    },
+    {
+      "name": "EDAMAME",
+      "image": "https://www.bakenroll.az/en/image/800x800/edamame-1.jpg",
+      "category_id": 8,
+      "price": 7,
+      "id": 35
+    },
+    {
+      "name": "SHRIMP TEMPURA",
+      "image": "https://www.bakenroll.az/en/image/800x800/krevetka.jpg",
+      "category_id": 8,
+      "price": 7.8,
+      "id": 36
+    },
+    {
+      "name": "СOCA COLA",
+      "image": "https://www.bakenroll.az/en/image/800x800/coca-cola.jpg",
+      "category_id": 9,
+      "price": 7.5,
+      "id": 37
+    },
+    {
+      "name": "FANTA",
+      "image": "https://www.bakenroll.az/en/image/800x800/fanta.jpg",
+      "category_id": 9,
+      "price": 7.5,
+      "id": 38
+    },
+    {
+      "name": "HOMEMADE LEMONAD",
+      "image": "https://www.bakenroll.az/en/image/800x800/lemonade.jpg",
+      "category_id": 9,
+      "price": 8,
+      "id": 39
+    },
+    {
+      "name": "SPRITE",
+      "image": "https://www.bakenroll.az/en/image/800x800/sprite-1.jpg",
+      "category_id": 9,
+      "price": 2,
+      "id": 40
+    },
+    {
+      "name": "KRAB SALAT",
+      "image": "https://static.vecteezy.com/system/resources/previews/023/858/460/non_2x/grilled-vegetable-salad-on-plate-top-view-with-transparent-background-png.png",
+      "category_id": 10,
+      "price": 16,
+      "id": 41
+    },
+    {
+      "name": "CHUKKA SALAD",
+      "image": "https://static.vecteezy.com/system/resources/previews/021/950/173/non_2x/white-plate-with-caprese-salad-isolated-on-a-transparent-background-png.png",
+      "category_id": 10,
+      "price": 18,
+      "id": 42
+    },
+    {
+      "name": "SALAT WITH TUNA",
+      "image": "https://static.vecteezy.com/system/resources/previews/021/596/885/non_2x/fresh-salad-with-mix-of-vegetables-and-fruits-isolated-on-a-transparent-background-png.png",
+      "category_id": 10,
+      "price": 15,
+      "id": 43
+    },
+    {
+      "name": "SEZAR SALAD WITH CHIKEN",
+      "image": "https://static.vecteezy.com/system/resources/previews/022/742/752/non_2x/white-bowl-with-vegetables-mix-isolated-on-a-transparent-background-png.png",
+      "category_id": 10,
+      "price": 23,
+      "id": 48
+    },
+    {
+      "name": "SEZAR WITH SHRIMP",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp6arNeBwOsnG-NtTUJJ4crZMqGZd1poH42j7Suq84q1CsFeCGXA-VuTAwzZHirYCM3t8&usqp=CAU",
+      "category_id": 10,
+      "price": 17,
+      "id": 49
+    },
+    {
+      "name": "SEZAR WITH SALMON",
+      "image": "https://img.freepik.com/premium-photo/there-is-table-with-bowl-bowl-eggs-it-generative-ai_927978-14012.jpg?w=2000",
+      "category_id": 10,
+      "price": 19,
+      "id": 50
+    },
+    {
+      "name": "SALAD WITH TEMPURA",
+      "image": "https://img.freepik.com/premium-photo/bowl-with-shrimp-pineapple-avocado-beans-seaweed_711700-2329.jpg",
+      "category_id": 10,
+      "price": 22,
+      "id": 51
+    },
+    {
+      "name": "TOMATO SOUP",
+      "image": "https://media.istockphoto.com/id/962102780/photo/tomato-soup-in-a-white-bowl-isolated-on-white-background-top-view-copy-space-traditional-cold.jpg?s=612x612&w=0&k=20&c=GPmG4OmndYpfDUyskKUEftgJSDbRi-dC45P7E5meLMA=",
+      "category_id": 11,
+      "price": 8,
+      "id": 52
+    },
+    {
+      "name": "MISO TOFU",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlppsJF203Qc-N160oEALqMS7F1hRCCOEhQdX59vNT2s97SZPZUNnWJrf0OCWWaItwTK0&usqp=CAU",
+      "category_id": 11,
+      "price": 9,
+      "id": 53
+    },
+    {
+      "name": "MISO SALMON",
+      "image": "https://pngimg.com/d/soup_PNG25.png",
+      "category_id": 11,
+      "price": 12,
+      "id": 54
+    },
+    {
+      "name": "TOM YAM",
+      "image": "https://assets.bonappetit.com/photos/57acf69ff1c801a1038bc96b/1:1/w_2560%2Cc_limit/double-dark-chicken-noodle-soup.jpg",
+      "category_id": 11,
+      "price": 10,
+      "id": 55
+    },
+    {
+      "name": "MISO TEMPURA",
+      "image": "https://www.bhg.com/thmb/UxB8DNqHPwLg9EY0U1ATgIxYgo4=/1244x0/filters:no_upscale():strip_icc()/gluten-free-chicken-noodle-soup-RU336692-29bf0e201b42499b8df8d9ca60c64879.jpg",
+      "category_id": 11,
+      "price": 12,
+      "id": 56
+    },
+    {
+      "name": "SOM YA SOUP",
+      "image": "https://www.bakenroll.az/en/image/800x800/tom-yam666-1x1.jpg",
+      "category_id": 11,
+      "price": 9,
+      "id": 57
+    },
+    {
+      "name": "SOUP WITH CHICKEN",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwU8vAjG4ekCTHDr6I0MFRM1RwTQ1qeMbKyw&usqp=CAU",
+      "category_id": 11,
+      "price": 7,
+      "id": 58
+    },
+    {
+      "name": "TEMPURA MISO",
+      "image": "https://www.bakenroll.az/en/image/800x800/miso-tofu222.jpg",
+      "category_id": 11,
+      "price": 9,
+      "id": 59
+    },
+    {
+      "name": "NIGIRI SOUP",
+      "image": "https://www.bakenroll.az/en/image/800x800/miso-salmon222.jpg",
+      "category_id": 11,
+      "price": 10,
+      "id": 60
+    }
+  ]
+}

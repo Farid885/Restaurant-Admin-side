@@ -1,0 +1,24 @@
+.add-categories {
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.categor {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.b-adder {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 130px;
+  margin-top: 15px;
+}
+
+.form-button {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}/*# sourceMappingURL=categories.css.map */

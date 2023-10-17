@@ -1,0 +1,140 @@
+.menu-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+}
+.menu-style {
+  font-size: 26px;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+}
+.menu-style:hover {
+  color: rgb(77, 75, 75);
+}
+
+.container {
+  .row {
+    .col-lg-4 {
+      .card {
+        .img {
+          img {
+            border-radius: 50%;
+            position: relative;
+            top: 90px;
+          }
+        }
+        .card-body {
+          padding-top: 100px;
+          border-radius: 10px;
+        }
+        ul {
+          padding: 0;
+          margin: 0;
+
+          .View-icon {
+            list-style: none;
+            .btn {
+              width: 40px;
+              height: 40px;
+              background-color: #ccc;
+              opacity: 0.6;
+              border-radius: 50%;
+              position: relative;
+              line-height: 20px;
+              transition: 0.5s all;
+              img {
+                position: relative;
+                right: 3px;
+                transition: 0.5s all;
+                color: green;
+              }
+            }
+          }
+
+          .Edit-icon {
+            list-style: none;
+            .btn {
+              width: 40px;
+              height: 40px;
+              background-color: #ccc;
+              opacity: 0.6;
+              border-radius: 50%;
+              position: relative;
+              line-height: 20px;
+              transition: 0.5s all;
+              &:hover {
+                background-color: #e66430;
+                transition: 0.5s all;
+                opacity: 1;
+                img {
+                  transition: 0.5s all;
+                  color: white;
+                }
+              }
+              img {
+                position: relative;
+                right: 3px;
+                transition: 0.5s all;
+                color: white;
+                opacity: 1;
+              }
+            }
+          }
+
+          .Delete-icon {
+            list-style: none;
+            .btn {
+              width: 40px;
+              height: 40px;
+              background-color: #ccc;
+              opacity: 0.6;
+              border-radius: 50%;
+              position: relative;
+              line-height: 20px;
+              transition: 0.5s all;
+              &:hover {
+                background-color: #4c95dd;
+                transition: 0.5s all;
+                opacity: 1;
+                img {
+                  transition: 0.5s all;
+                  color: white;
+                }
+              }
+              img {
+                position: relative;
+                right: 3px;
+                transition: 0.5s all;
+                color: #4c95dd;
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.image-view {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10%;
+}
+.isNUT {
+  left: -10px;
+  top: -3px;
+}
+
+
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-image .ant-image-mask {
+    left: -10px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    top: -4px;
+}

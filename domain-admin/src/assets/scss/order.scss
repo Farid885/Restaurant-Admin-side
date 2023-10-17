@@ -1,0 +1,113 @@
+.container {
+    .row {
+        .col-lg-4 {
+            .card {
+                .img {
+                    img {
+                        border-radius: 50%;
+                        position: relative;
+                        top: 90px;
+                    }
+                }
+                .card-body {
+                    padding-top: 100px;
+                    border-radius: 10px;
+                }
+                ul {
+                    padding: 0;
+                    margin: 0;
+
+                    .View-icon {
+                        list-style: none;
+                        .btn {
+                            width: 40px;
+                            height: 40px;
+                            background-color: #ccc;
+                            opacity: 0.6;
+                            border-radius: 50%;
+                            position: relative;
+                            line-height: 20px;
+                            transition: 0.5s all;
+                            &:hover {
+                                background-color: green;
+                                transition: 0.5s all;
+                                img {
+                                transition: 0.5s all;
+                                color: white;
+                                }
+                            }
+                            img {
+                                position: relative;
+                                right: 3px;
+                                transition: 0.5s all;
+                                color: green;
+                            }
+                        }
+                    }
+
+                    .Edit-icon {
+                        list-style: none;
+                        .btn {
+                            width: 40px;
+                            height: 40px;
+                            background-color: #ccc;
+                            opacity: 0.6;
+                            border-radius: 50%;
+                            position: relative;
+                            line-height: 20px;
+                            transition: 0.5s all;
+                            &:hover {
+                                background-color: #e66430;
+                                transition: 0.5s all;
+                                opacity: 1;
+                                img {
+                                transition: 0.5s all;
+                                color: white;
+                                }
+                            }
+                            img {
+                                position: relative;
+                                right: 3px;
+                                transition: 0.5s all;
+                                color: #e66430;
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+                    .Delete-icon {
+                        list-style: none;
+                        .btn {
+                            width: 40px;
+                            height: 40px;
+                            background-color: #ccc;
+                            opacity: 0.6;
+                            border-radius: 50%;
+                            position: relative;
+                            line-height: 20px;
+                            transition: 0.5s all;
+                            &:hover {
+                                background-color: #4c95dd;
+                                transition: 0.5s all;
+                                opacity: 1;
+                                img {
+                                transition: 0.5s all;
+                                color: white;
+                                }
+                            }
+                            img {
+                                position: relative;
+                                right: 3px;
+                                transition: 0.5s all;
+                                color: #4c95dd;
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+                }
+                
+            }
+        }
+    }
+}

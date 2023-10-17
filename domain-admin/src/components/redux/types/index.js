@@ -1,0 +1,21 @@
+
+// export const ADD_ROUTE = "ADD_ROUTE";
+// export const DELETE_ROUTE = "DELETE_ROUTE";
+// export const EDIT_ROUTE = "EDIT_ROUTE";
+
+
+export const Types = {
+    ADD_DATA:'ADD_DATA',
+    DELETE_DATA:'DELETE_DATA',
+    EDIT_DATA:'EDIT_DATA',
+    
+    LOGIN_USER:'LOGIN_USER',
+    GET_USER:'GET_USER',
+    SET_USER_LOGGED_IN:'SET_USER_LOGGED_IN',
+    SET_USER:'SET_USER',
+    SET_USER_ERROR:'SET_USER_ERROR',
+    LOG_OUT:'LOG_OUT',
+
+    LOADING_ON:'LOADING_ON',
+    LOADING_OFF:'LOADING_OFF',
+}
