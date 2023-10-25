@@ -16,7 +16,7 @@ const Login = () => {
   
   
   const onFinish = (values) => {
-    console.log('Received values of form: ', values);
+    console.log('Received values: ', values);
   
   dispatch(logInUser(values.email,values.password,values.remember))
   

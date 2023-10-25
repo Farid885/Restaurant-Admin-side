@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { Col, Row, Button, Form, Table, Input, Card, message, Space, Popconfirm,Alert } from "antd";
-// import "../../assets/scss/categories.scss";
+
 import "../../assets/scss/table.scss";
 import TableForm from '../elements/TableForm'
 import { agent } from "../api/Agent";

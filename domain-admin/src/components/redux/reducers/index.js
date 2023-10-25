@@ -1,3 +1,4 @@
+import { faL } from "@fortawesome/free-solid-svg-icons";
 import { Types } from "../types";
 
 // const inithialData = [
@@ -18,7 +19,7 @@ import { Types } from "../types";
 //     },
 // ]
 const initialData = {
-  isLoggedIn: true,
+  isLoggedIn: false,
   data: {},
   message: "",
   notify: false,

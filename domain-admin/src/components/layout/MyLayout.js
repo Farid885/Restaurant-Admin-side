@@ -28,6 +28,7 @@ const MyLayout = (props) => {
           }}
           >
           {props.children}
+          
         </Content>
       </Layout>
     </Layout>

@@ -1,13 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Spin, Col, Form, Row, Select, Button } from "antd";
-// import { connect } from "react-redux";
-// import { notify } from "../../../redux/actions";
-// import { useTranslation } from "react-i18next";
-// import { noWhitespace } from "../../../utils/rules";
+
 import { PicCenterOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-// import history from "../../../const/history";
-// import admin from "../../../const/api";
+;
 const { Option } = Select;
 
 function EditOrders(props) {
