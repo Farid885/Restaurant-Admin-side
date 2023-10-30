@@ -1,6 +1,5 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-// import Dashboard from "../pages/Dashboard";
 import Addmenu from "../pages/Addmenu";
 import Categories from "../pages/Categories";
 import Waitress from "../pages/Waitress";
@@ -18,7 +17,7 @@ function Routing() {
   return (
     <Routes>
       <Route exact path="/" element={<Categories />} />
-      {/* <Route exact path="/"  element={</>} /> */}
+      <Route exact path="/"  element={<Categories/>} />
       {/* <Route exact path="/dashboard" element={<Dashboard />} /> */}
       <Route exact path="/categories" element={<Categories />} />
       <Route exact path="/waitress" element={<Waitress />} />

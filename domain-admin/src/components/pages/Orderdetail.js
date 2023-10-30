@@ -55,7 +55,7 @@ const Orderdetail = (props) => {
             title:'Price (azn)',
             key: "6",
             dataIndex: "price",}
-        // ... (other columns)
+        
     ];
 
  
