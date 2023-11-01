@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MyHeader from "./Header";
-
 import { Layout, theme } from "antd";
 
 const { Content } = Layout;

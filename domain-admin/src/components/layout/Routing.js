@@ -18,7 +18,6 @@ function Routing() {
     <Routes>
       <Route exact path="/" element={<Categories />} />
       <Route exact path="/"  element={<Categories/>} />
-      {/* <Route exact path="/dashboard" element={<Dashboard />} /> */}
       <Route exact path="/categories" element={<Categories />} />
       <Route exact path="/waitress" element={<Waitress />} />
       <Route exact path="/tables" element={<Tables />} />
