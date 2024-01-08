@@ -19,12 +19,12 @@ function Menulist() {
       <Menu mode="inline" theme="dark"  className="  menu-ul" defaultSelectedKeys={"1"}>
        
 
-        <Menu.Item key="2">
-          <Link className="link-text" to={"/categories"}>
-            <MenuOutlined />
-            <span>Categories </span>
-          </Link>
-        </Menu.Item>
+          <Menu.Item key="2">
+            <Link className="link-text" to={"/categories"}>
+              <MenuOutlined />
+              <span>Categories </span>
+            </Link>
+          </Menu.Item>
 
         <Menu.Item key="3">
           <Link className="link-text" to={"/menu"}>

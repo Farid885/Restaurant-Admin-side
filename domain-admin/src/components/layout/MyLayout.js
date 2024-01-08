@@ -27,7 +27,7 @@ const MyLayout = (props) => {
             background: colorBgContainer,
           }}
           >
-          {props.children}
+         
           
         </Content>
       </Layout>
